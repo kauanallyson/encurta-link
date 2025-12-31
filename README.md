@@ -1,6 +1,6 @@
 # EncurtaLink
 
-## API de redirecionamento de links desenvolvida como parte do desafio técnico do Professor Matheus Leandro Ferreira.
+## API de redirecionamento de links desenvolvida como parte do desafio técnico do [Professor Matheus Leandro Ferreira](https://youtube.com/@matheuslf).
 Tecnologias usadas:
 
     Java 21
