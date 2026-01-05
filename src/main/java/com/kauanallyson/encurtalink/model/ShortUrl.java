@@ -1,19 +1,24 @@
 package com.kauanallyson.encurtalink.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+import java.time.LocalDateTime;
 
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
+@Builder
 public class ShortUrl {
     @Id
-    String shortUrl;
-    String longUrl;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String shortUrl;
+    private String longUrl;
+    private LocalDateTime expirationDate;
 }
