@@ -33,7 +33,7 @@ HTTP/1.1 200 Ok
 Content-Type: application/json
 
 {
-    "url": "aBc123X"
+    "url": "https://xxx.com/aBc123X"
 }
 ```
 
